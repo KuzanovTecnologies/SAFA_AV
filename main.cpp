@@ -1,21 +1,17 @@
-# include <stdio.h>
-# include <accctrl.h>
-# include <w32api.h>
-# include <security.h>
-# include <winable.h>
-# include <winbase.h>
+#include <iostream>
+// Include other necessary headers
+// #include <accctrl.h> // Ensure this file exists
 
-int && Add_Security_Protocols (Add_MSG) 'Your System Has Security Protocols!\n';
-{
-  printf(if goto update SecurityUserData);   
-}
-int && Add_CyberSecurity_Commands (Update_Security_UserData);
+const char* Add_MSG = "Your System Has Security Protocols!\n";
+const char* Secure_MSG = "Your System Is Secure!\n";
 
-int && Add_Digital_Security_Commands (DACL_SECURITY_INFORMATION) 'Your System Is Secure!\n';
-{
-  printf(else if update SECURITY_DESCRIPTOR_CONTROL);
+int Add_Security_Protocols(const char* msg) {
+    std::cout << msg;
+    return 0; // Return appropriate value
 }
-int && Add_VirtualSecurity_Commands (Update_Security_Protocols); 
-{
-  printf(else if Update_Security_Protocols);
+
+int main() {
+    Add_Security_Protocols(Add_MSG);
+    // Call other functions as needed
+    return 0;
 }
